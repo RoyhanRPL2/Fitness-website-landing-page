@@ -61,14 +61,12 @@ main .hero .hero-image img {
     width: 70%;
     font-size: 3rem;
     font-weight: 600;
-    margin-bottom: 1rem;
 }
 
 .hero-text p {
     width: 80%;
     font-size: 1.3rem;
     font-weight: 300;
-    margin-bottom: 1rem;
     line-height: 195%;
 }
 
@@ -118,7 +116,7 @@ main .hero .hero-image img {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 7%;
+    width: 7%;  
     display: flex;
     justify-content: center;
     align-items: center;
