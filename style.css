@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    padding: 1.3rem 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li {
+    margin-left: 2rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+main .hero {
+    padding: 2rem 5rem;
+    margin-bottom: 2rem;
+}
+
+main .hero .hero-image {
+    width: 100%;
+    height: 473px;
+    margin-bottom: 2rem;
+}
+
+main .hero .hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 24px;
+}
+
+.hero .hero-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.hero-text h1 {
+    width: 70%;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.hero-text p {
+    width: 80%;
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    line-height: 195%;
+}
+
+.list-features {
+    width: 100%;
+    padding: 1.3rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    background-color: #1391AD;
+    list-style: none;
+    margin-bottom: 8rem;
+}
+
+.list-features li {
+    font-size: 2rem;
+    font-weight: 600;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.contact {
+    position: relative;
+    width: 100%;
+    margin: 5rem 0;
+}
+
+.contact .contact-img {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -55%);
+    width: 89%;
+    height: 430px;
+}
+
+.contact .contact-img img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 40px;
+}
+
+.contact .contact-img .icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.contact-img .icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.contact .contact-description {
+    width: 100%;
+    padding: 7rem 5.7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20rem;
+    background-color: rgba(19, 145, 173, 0.25);
+}
+
+.contact .contact-description .contact-text {
+    width: 55%;
+    margin-top: 9rem;
+}
+
+.contact .contact-description .contact-text h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+}
+
+.contact .contact-description .contact-text p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 1.7rem;
+    line-height: 195%;
+    letter-spacing: 0.5px;
+}
+
+.contact .contact-description .contact-text button {
+    padding: 1.2rem 2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border: none;
+    outline: none;
+    border-radius: 33px;
+    background: linear-gradient(180deg, #24FFDD -28.46%, #1391AD 100%);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.contact aside {
+    width: 35%;
+    height: 100%;
+    margin-top: 10rem;
+    padding: 3.5rem 2.5rem;
+    background-color: #ffffff;
+    border-radius: 24px;
+}
+
+aside h2 {
+    font-family: 'PT Serif', serif;
+    font-size: 2rem;
+    font-weight:700;
+    margin-bottom: 2rem;
+    letter-spacing: 0.8px;
+    color: #000;
+}
+
+aside .contact-list .contact-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1.7rem;
+}
+
+aside .contact-list .contact-item .contact-icon {
+    margin-right: 1.5rem;
+}
+
+.contact-item div h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+    letter-spacing: 0.7px;
+    color: #000;
+}
+
+.contact-item div p {
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 0.7px;
+    color: #000;
+}
+
+main .trainer {
+    padding: 2rem 5rem;
+    margin-bottom: 2rem;
+}
+
+.trainer .trainer-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 6rem;
+}
+
+.trainer-text .trainer-hero-image {
+    width: 40%;
+    margin-right: 7rem;
+}
+
+.trainer-text .trainer-hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 24px;
+}
+
+.trainer-text .trainer-description {
+    width: 60%;
+}
+
+.trainer-description h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 0.7rem;
+}
+
+.trainer-description p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 1.7rem;
+    line-height: 195%;
+    letter-spacing: 0.5px;
+}
+
+.trainer-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trainer-list .trainer-list-item h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+
+.trainer-list .trainer-list-item .trainer-image {
+    width: 300px;
+    height: 400px;
+    clip-path: polygon(27.5% 0%, 81.4% 0%, 100.3% 16.8%, 100.3% 100.3%, 0% 100.3%, 0% 0%);
+    border-radius: 24px;
+}
+
+.trainer-list .trainer-list-item .trainer-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 24px;
+}
+
+main .review {
+    padding: 2rem 5rem;
+    margin-bottom: 5rem;
+}
+
+.review h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.review .review-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.review-list .review-list-item {
+    width: 30%;
+    padding: 2rem 1.5rem;
+    border-radius: 24px;
+    background-color: #ffffff;
+}
+
+.review-list-item div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.review-list-item div .review-user-image {
+    width: 100px;
+    height: 75px;
+    margin-right: 1.7rem;
+}
+
+.review-list-item div .review-user-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.review-list-item div .review-user-title {
+    display: block;
+}
+
+.review-list-item div .review-user-title h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+    margin-bottom: 0.3rem;
+    color: #000;
+}
+
+.review-list-item div .review-user-title p {
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 0.7px;
+    color: #000;
+}
+
+.review-list-item p {
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 195%;
+    letter-spacing: 0.5px;
+    color: #585252;
+}
+
+footer {
+    background-color: #000;
+}
+
+footer .cta {
+    width: 100%;
+    padding: 1.5rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1AB9BF;
+}
+
+.cta h1 {
+    font-family: 'PT Serif', serif; 
+    font-size: 2.7rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.cta button {
+    padding: 1.2rem 2.8rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    background-color: #F4CD00;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+footer .footer-content {
+    padding: 3rem 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(26, 185, 191, 0.63);
+}
+
+.footer-content .logo-image {
+    width: 18%;
+    margin-bottom: 1.5rem;
+}
+
+.footer-content .logo-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.footer-content ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.footer-content ul li {
+    margin-left: 2rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+}
+
+.footer-content .line {
+    width: 100%;
+    height: 2px;
+    background-color: rgba(170, 166, 166, 0.25);
+    margin: 2rem 0;
+}
+
+.footer-content .copyright {
+    font-size: 1.1rem;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    color: #585252;
+}
+
+
+
+
